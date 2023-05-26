@@ -43,23 +43,6 @@ function App() {
   };
   const [todos, setTodos] = useState(
     initTodo
-    // [
-    // {
-    //   sno: 1,
-    //   title: "Go To Market",
-    //   desc: "You Need to go to the market to get this job done",
-    // },
-    // {
-    //   sno: 2,
-    //   title: "Go To Mall",
-    //   desc: "You Need to go to the Mall to get this job done",
-    // },
-    // {
-    //   sno: 3,
-    //   title: "Go To Ghat",
-    //   desc: "You Need to go to the Ghat to get this job done",
-    // },
-    // ]
   );
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
